@@ -104,6 +104,8 @@ namespace WebApplication_LoginDataCrudOperation
 
             GridView1.DataSource = dt;
             GridView1.DataBind();
+
+            txtID.Text = "";
         }
     }
 }
